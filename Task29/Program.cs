@@ -14,7 +14,7 @@ Console.WriteLine(array);
 
 for (int i = 0; i < array.Length; i++)
 {
-    array[i] = new Random().Next(-10, 34);
+    array[i] = new Random().Next(-10, 35);
 }  
 Console.Write("Входной массив: ");
 for (int i = 0; i < array.Length; i++)
